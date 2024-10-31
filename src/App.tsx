@@ -7,7 +7,7 @@ import Report from './pages/Report';
 
 function App() {
   return (
-    <Router>
+    <Router basename='laboratory-reporting'>
       <Header />
       <Routes>
         <Route path='/' element={<Report />} />
